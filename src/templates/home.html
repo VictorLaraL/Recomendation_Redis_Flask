@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock %}
+{% block content %}
+    <div class="searchBar">
+        <form class="example" action="/home" style="margin:auto;max-width:300px">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="searchBar"></i></button>
+        </form>
+    <div>
+
+       <p>{{ busqueda }}</p> 
+
+{% endblock %}
