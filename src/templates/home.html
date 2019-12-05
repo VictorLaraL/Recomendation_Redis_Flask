@@ -9,6 +9,9 @@
         </form>
     <div>
 
-       <p>{{ busqueda }}</p> 
+        <h4><a href="/list">{{result}} </a></h4>
 
+        {%for gen in list%}
+            <p><a href="/list">{{ gen }} </a></p>
+        {% endfor %}
 {% endblock %}
