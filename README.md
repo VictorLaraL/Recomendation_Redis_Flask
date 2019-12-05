@@ -1,2 +1,2 @@
 # Recomendation_Redis_Flask
- Web app de recomendaciones utilizandfo Redis y teoria de conjuntos
+ Web app de recomendaciones utilizando Redis y teoria de conjuntos
