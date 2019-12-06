@@ -48,6 +48,7 @@ def listMov(delMov = None):
 def ListRecomInter(addMovie = None):
     listMov = [] #Lista de peliculas del usuario
     listRec = [] #Lista de peliculas recomendadas
+    
     for movie in dbUsers.smembers('u1'): #Almacenamos en listMov las peliculas asociadas al usuario
        listMov.append(movie) 
 
@@ -69,6 +70,7 @@ def ListRecomInter(addMovie = None):
 def ListRecomUnion(addMovie = None):
     listMov = [] #Lista de peliculas del usuario
     listRec = [] #Lista de peliculas recomendadas
+    
     for movie in dbUsers.smembers('u1'): #Almacenamos en listMov las peliculas asociadas al usuario
        listMov.append(movie) 
 
