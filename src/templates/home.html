@@ -9,9 +9,9 @@
         </form>
     <div>
 
-        <h4><a href="/list">{{result}} </a></h4>
+        <h4><a href="/home/{{result}}">{{result}} </a></h4>
 
         {%for gen in list%}
-            <p><a href="/list">{{ gen }} </a></p>
+            <p><a href="/home/{{gen}}">{{ gen }} </a></p>
         {% endfor %}
 {% endblock %}

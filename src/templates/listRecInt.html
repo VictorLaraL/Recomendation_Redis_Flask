@@ -3,8 +3,8 @@
 {% block title %} Play List {% endblock %}
 {% block content %}
 
-    {%for gen in list%}
-        <p><a href="/list/{{gen}}">{{ gen }} </a></p>
+    {% for mov in listMov %}
+        <p>{{mov}}</p>
     {% endfor %}
 
 {% endblock %}
